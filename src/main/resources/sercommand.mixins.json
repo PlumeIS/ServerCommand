@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.plumc.servercommand.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "sercommand.refmap.json",
+  "mixins": [
+    "IntegratedServerMixin",
+    "PlayerListMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
